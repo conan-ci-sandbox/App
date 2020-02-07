@@ -7,7 +7,7 @@ conan_basic_setup(TARGETS)
 set(SOURCES src/main.cpp)
 
 add_executable(App ${SOURCES})
-target_link_libraries(App PRIVATE CONAN_PKG::libA)
+target_link_libraries(App PRIVATE CONAN_PKG::libB)
 
 install(TARGETS App
         RUNTIME DESTINATION ${CMAKE_INSTALL_PREFIX}/bin
