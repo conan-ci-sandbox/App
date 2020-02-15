@@ -16,6 +16,7 @@ class App(ConanFile):
 
     def requirements(self):
         self.requires("libB/0.0@mycompany/stable")
+        self.requires("libC/0.0@mycompany/stable")
 
     def build(self):
         cmake = CMake(self)
