@@ -1,2 +1,2 @@
-demo-ci-conan :: App
+conan-ci-cd-training :: App
 =====================
