@@ -26,3 +26,4 @@ class App(ConanFile):
 
     def package(self):
         self.copy("LICENSE", dst="licenses")
+####
