@@ -3,6 +3,7 @@
 
 #include "libB/libB.h"
 #include "libC/libC.h"
+/////
 
 int main() {
     std::cout << "App: v1.0" << std::endl;
