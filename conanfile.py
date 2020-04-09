@@ -13,8 +13,7 @@ class App(ConanFile):
            "revision": "auto"}
 
     def requirements(self):
-        self.requires("libB/1.0@mycompany/stable")
-        self.requires("libC/1.0@mycompany/stable")
+        self.requires("libD/1.0@mycompany/stable")
 
     def build(self):
         cmake = CMake(self)
